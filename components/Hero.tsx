@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect"
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen w-full">
+    <section className="relative w-full">
       {/* Spotlights container */}
       <div className="absolute inset-0 overflow-hidden">
         <Spotlight

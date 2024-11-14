@@ -1,9 +1,9 @@
-"use client";
+"use client"
 
-import React from "react";
+import React from "react"
 
-import { companies, testimonials } from "@/data";
-import { InfiniteMovingCards } from "./ui/InfiniteCards";
+import { companies, testimonials } from "@/data"
+import { InfiniteMovingCards } from "./ui/InfiniteCards"
 
 const Clients = () => {
   return (
@@ -25,7 +25,7 @@ const Clients = () => {
           />
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10 px-5">
           {companies.map((company) => (
             <React.Fragment key={company.id}>
               <div className="flex md:max-w-60 max-w-32 gap-2">
@@ -46,7 +46,7 @@ const Clients = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Clients;
+export default Clients

@@ -75,18 +75,19 @@ export const projects = [
     title: "Lexamica Landing Page",
     des: "A modern, performant landing page built with React and TypeScript, featuring ThreeJS animations and dynamic content management. Implemented responsive design and optimized load times with Next.js, resulting in a 95+ Lighthouse score.",
 
-    img: "/Lexamica_preview.png",
+    img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://www.lexamica.com",
     cardTitle: "/lexamica.com"
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "E-Commerce Site with live updating",
+    des: "Built with Next.js and TypeScript, this modern e-commerce platform features real-time visual editing through Sanity CMS. Admins can preview content changes live before publishing, while customers enjoy a responsive shopping experience with dynamic cart management and secure checkout.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com"
+    link: "https://ecommerce-six-sooty.vercel.app",
+    cardTitle: "Shopr"
   },
   {
     id: 3,

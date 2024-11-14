@@ -12,7 +12,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="I start by deeply understanding your project requirements and business goals. 
+          des="I start by deeply understanding the project requirements and business goals. 
           Together, we'll architect a scalable solution, choosing the right tech stack 
           and planning the system architecture for optimal performance."
         >
